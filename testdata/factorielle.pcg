@@ -1,0 +1,12 @@
+func factorielle(n) {
+    var resultat = 1;
+
+    while (n > 1) {
+        resultat = resultat * n;
+        n = n - 1;
+    }
+
+    return resultat;
+}
+
+var resultat = factorielle(5);
